@@ -8,7 +8,7 @@ server = {
 parse = {
 	"default": {
 		"NotFound": "Not Found", # <!--- ERROR: cgi.c 2826 DomainNotFound --->
-		"DomainName": "Domain Name:   (\w+).(\w+)",
+		"DomainName": "Domain Name:   ([a-zA-Z.0-9-+]+)",
 		"Status": "Domain Status: (\w+)",
 		"CreationDate": "Created: (\S+)",
 		"ExpirationDate": "Expired: (\S+)",
